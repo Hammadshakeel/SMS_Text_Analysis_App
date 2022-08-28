@@ -1,6 +1,5 @@
-streamlit
+nltk
+matplotlib
 pandas
-string
 seaborn
-matplotlib.pyplot
-collections
+streamlit
