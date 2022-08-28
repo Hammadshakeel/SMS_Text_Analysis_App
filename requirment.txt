@@ -1,0 +1,7 @@
+streamlit
+pandas
+nltk
+string
+seaborn
+matplotlib.pyplot
+collections
