@@ -15,6 +15,11 @@ from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
 from collections import Counter
 
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('stopwords')
+
 def main():
     st.title('SMS_Data_Processing_Text')
     df = pd.read_csv('SMS_data.csv', encoding= 'unicode_escape')
